@@ -29,6 +29,8 @@ address 10.200.1.20
 netmask 255.255.0.0
 broadcast 10.200.1.255
 
+
+
 """
 
     parser = optparse.OptionParser(usage)
@@ -41,7 +43,6 @@ broadcast 10.200.1.255
     options, _ = parser.parse_args()
     
     return options.device, options.netaddress, options.startaddress, options.stopaddress, options.startindex, options.networkmask
-
 
 def create_interfaces():
     dev, netadd, startadd, stopadd, startindx, netmask = parse_args()
