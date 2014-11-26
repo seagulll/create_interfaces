@@ -13,7 +13,7 @@ Run it like this:
 
     python create_interfaces.py -d eth1 -n 10.29 -t 101 -p 124 -s 1 -e 254 -x 1 -m 255.255.0.0 -o "C:\simon\workspace\create_interfaces\src" -f "int.txt"
     
-it means it  will generate network configurations for Ubuntu OS, like:
+It  will generate network configurations for Ubuntu OS, like:
 
 auto eth1:1
 iface eth1:1 inet static
