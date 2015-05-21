@@ -11,7 +11,7 @@ def parse_args():
 this is the Ubuntu interfaces file generator.
 Run it like this:
 
-    python create_interfaces.py -d eth1 -n 10.29 -t 101 -p 124 -s 1 -e 254 -x 1 -m 255.255.0.0 -o "C:\simon\workspace\create_interfaces\src" -f "int.txt"
+    python create_interfaces.py -d eth1 -n 10.200 -t 1 -p 16 -s 1 -e 250 -x 1 -m 255.255.0.0 -o "C:\simon\workspace\create_interfaces\src" -f "int.txt"
     
 It  will generate network configurations for Ubuntu OS, like:
 
